@@ -1,0 +1,72 @@
+/* feuille de style pour le premier tableau */
+/* font-familly nous permet de définir la typo utilisée sur la page: les types se présentent dans l'ordre souhaité */
+/* lorsqu le nom de la typo est constitué de plusieurs termes on doit l'encadrer d'apostrophe ou de "quotes" */
+
+* {
+    font-family: 'georgia', 'Times New Roman', 'Times', 'serif';
+}
+
+body {
+    background-color: pink;
+    /* largeur de la page 50% de la taille de l'écran du navigateur  */
+    width: 50%;
+    /* margin: la marge extérieure de l'élément,avec une gestion automatique des marges, pour que le contenu de body soit centré dans la fenêtre */
+    margin: auto;
+
+}
+
+/* les style pour le tableau */
+/* BORDER: 3 valeurs : épaisseur, type de filet, couleur */
+
+ table {
+
+    border: 4px solid #448833;
+    /* par défaut la bordure contient 2 traits, pour que le trait  soit unique on utilise la proprièté "collapse" */
+    border-collapse: collapse;
+    /* la largeur du tableau par rapport à son contenant donc ici body  // le tableau hérite des propriétés de son contenant sauf chagement ici la couleur de fond*/
+    width: 90%;
+    background-color: plum;
+}
+
+caption {
+    background-color: palevioletred;
+    /* border: 3px solid #483D8B; */
+    padding: 10px;
+    /* border-collapse: collapse; */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* il est possible de décaler plusieurs éléments et de leur effacer les mêmes propriétés les éléments sont séparés par une virgule */
+
+thead, tfoot{
+    background-color: red;
+    border: 2px solid yellow
+}
+
+tbody {
+    border: 1px solid green;
+    border-collapse: collapse;
+}
+
+th {
+    /* dotted=ppi intillé */
+    border: 2px dotted #6a6a6a;
+    /* la marge intérieur de l'élément: padding  */
+    padding: 10px;
+    /* chaque élément fait 25% du parent  */
+    width: 25%;
+
+}
+
+td {
+    border: 1px dotted green;
+    text-align: center;
+    padding: 5px;
+}
+
+/* td:first-child  le 1er td pour aligner à gauche le texte dans la première cellule */
+td:first-child {
+text-align: left;
+background-color:lightpink;
+}
+ 
