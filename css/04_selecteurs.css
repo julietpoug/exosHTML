@@ -1,25 +1,86 @@
-/* feuile de style pour la page sélecteur  */
-body{
-    background-color: pink;
-    color: black;
+/* feuille de style pour la page sélecteur */
+body {
+    background-color: papayawhip;
+    /* taille de la police ou de la typo ou de la font (et pas de l'écriture)  */
+    font-size: 18px;
+}
+/* des propriétés pour la section et les différentes paragraphes de la section  */
+
+section {
+    background-color: lightgray;
+    padding: 5px;
+    width: 50%;
+    border: 1px solid red;
+    margin-bottom: 10px; 
+}
+section p {
+    /* tous les p à l'intérieur de la balise SECTION ont une couleur  */
+    color: olive;
+}
+
+section p:first-child {
+    /* le premier paragraphe de chaque section sera darkblue et en gras; premier enfant d'un élément */
+color: darkblue;
+font-weight: bolder; 
+}
+section p:last-child {
+    /* le dernier parargraphe de chaque section aure un fond orange; dernier enfant d'un élément  */
+    background-color: orange;
+}
+
+section p:nth-child(3), p:nth-child(6) {
+    /* le 3ème  et le 6ième paragraphes de chaque section seront en majuscule; le énième d'un élément  */
+    text-transform: uppercase;
+}
+
+section p:nth-child(even) {
+    /* tous les paragraphes pairs  */
+    background-color: white;
+}
+
+section p:nth-child(odd) {
+     /* tous les paragraphes impairs  */
+    background-color: lightskyblue;
+}
+
+section p:nth-child(5), p:nth-child(9) {
+    /* le 5ème  et le 9ième paragraphes de chaque section auront la 1ère lettre du mot en majuscule; le énième d'un élément  */
+    text-transform: capitalize;
+    height: 50px;
 }
 
 /* des classes pour la page  */
 
+.zone1, .zone2 {
+    /* hauteur du bloc  */
+    height: 100px;
+}
 .zone1 {
-background-color: peru;
-height: 50px;
+    background-color: peru;  
 }
-
 .zone2 {
-background-color: powderblue;
-/* hauteur du bloc */
-height: 70px
+    background-color: powderblue;
 }
 
-/* des styles pour des ID  */
-
+#zone3, .zone4 {
+    /* ID donc avant son nom je mets #  */
+    height: 100px;
+}
+/* des styles pour des ID */
 #zone3 {
-    background-color: purple;
+    background-color: royalblue;
     color: whitesmoke;
+}
+
+#zone3::before {
+    /* on rajoute du contenu (content) avant l'ID zone3  */
+    content: " Rajouté avant la zone 3 "; 
+}
+
+#zone3:after {
+    /* on rajoute du contenu (content) après l'ID zone3  */
+    content: " rajouté après la zone 3. "; 
+}
+.zone4 {
+    background-color: magenta;
 }

@@ -1,0 +1,35 @@
+/* feuille de style pour zoning  */
+
+body {
+    width: 80%;
+    background-color: pink;
+    border: 1px solid white;
+    margin: 100px auto;
+}
+
+#contenu {
+    background-color: turquoise;
+    border: 2px solid red;
+    margin: 5px;
+}
+
+header, footer {
+    height: 120px;
+    border: 1px solid purple;
+    background-color: palevioletred;
+    text-align: center;
+    padding-top: 10px;
+}
+
+nav {
+    height: 60px;
+    background-color: lightsalmon;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+section {
+    border: 20px solid lightyellow;
+    height: 400px;
+    text-align: center;
+}
