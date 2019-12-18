@@ -6,7 +6,7 @@ body {
 
 .boite {
     /* une image en arrière plan  */
-    background: url(../img/siamois.jpg);
+    background:  url(../img/siamois.jpg); 
     /* l'image ne se répète pas  */
     background-repeat: no-repeat;
     width: 260px;
@@ -14,6 +14,12 @@ body {
     border: 5px solid white;
     /* effet flottant : permet de placer des balises côte à côte alors que selon le flux du web standard les éléments se placent les us au dessus des autres  */
     float: left;
+    transition: border 0.5s;
+}
+
+/* transition: margin 0.5s; on modifie au passage de la souris*/
+.boite:hover {
+    border: 50px solid orange;
 }
 
 .clear {

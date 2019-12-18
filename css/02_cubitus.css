@@ -1,0 +1,30 @@
+ /* feuille de css pour la page des floats  */
+
+body {
+    background-color: pink;
+    color: whrite;
+}
+
+.cube {
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border: 5px solid white;
+    float: left;
+    border-radius: 30%;
+    text-align: center;
+}
+
+.clear {
+    clear: both; 
+}
+
+.c1{
+    background-color: red; 
+    
+}
+.c2{
+    background-color: thistle; 
+    
+}

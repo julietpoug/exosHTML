@@ -1,0 +1,27 @@
+/*feuille de style pour la page disolay*/
+body {
+    background-color: cornsilk;
+}
+h1, h3, div, p {
+    text-align: center;
+    background-color: lavender;
+    text-transform: uppercase;
+}
+.encadre {
+    border: 1px solid orange;
+    padding: 2px;
+    /*display: block;*/
+}
+/*:hover c'est une pseudo class au survol de la souris*/
+a:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+/*avec cette class je peux modifier l'affichage normal de la balise de type inline à laquelle j'affecte cette class et qui devient de type block*/
+.block {
+    display: block;
+}
+/*avec cette class je peux faire le contraire : modifier une balise de type BLOCK qui devient de type INLINE*/
+.inline {
+    display: inline;
+}

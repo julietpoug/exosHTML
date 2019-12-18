@@ -5,7 +5,7 @@ body {
     color: white;
 }
 
-.c1, .c2{
+.cube1 {
     background-repeat: no-repeat;
     width: 150px;
     height: 150px;
@@ -16,6 +16,58 @@ body {
     text-align: center;
 }
 
+.cube2 {
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border: 5px solid white;
+    float: left;
+    border-radius: 15%;
+    text-align: center;
+}
+
+.cube3 {
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border: 5px solid white;
+    float: left;
+    border-radius: 15%;
+    text-align: center;
+}
+
+.cube4 {
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border: 5px solid white;
+    float: left;
+    border-radius: 15%;
+    text-align: center;
+}
+.cube5 {
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border: 5px solid white;
+    float: left;
+    border-radius: 15%;
+    text-align: center;
+}
+.cube6 {
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border: 5px solid white;
+    float: left;
+    border-radius: 15%;
+    text-align: center;
+}
 .clear {
     clear: both; 
 }

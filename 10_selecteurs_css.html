@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aide-mémoire sur les sélecteurs</title>
+
+    <style>
+        body {
+            background-color: pink; 
+
+        }
+    </style>
+</head>
+<body>
+    <!--nav>a*5-->
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#">Edito</a>
+        <a href="#">Panier</a>
+        <a href="#">FAQ</a>
+        <a href="#">Contact</a>
+    </nav>
+    <h1>Aide-mémoire sélecteurs css et leurs propriétés</h1>
+    <h2>Les sélecteurs css</h2>
+        <ul>
+            <li><mark>*</mark> : sélectionne tous les éléments de la page </li>
+            <li><mark>ma-jolie-class</mark> : sélectionne tous les éléments ayant le nom de class "ma ma-jolie-class" </li>
+            <li><mark>mon-unique-id</mark> : sélectionne tous les éléments ayant pour id "mon-unique-id" </li>
+            <li><mark>div, aside, article</mark> : sélectionne toutes les balises &lt;div, &lt;aside, &lt;article </li>
+            <li><mark>nav a</mark> : sélectionne tous les nav a liens <code>&lt;a></code>imbriqués dans la balise <code> &lt</code>;nav></li>
+            <li><mark>nav a:hover</mark> : sélectionne tous les liens de la nav et active une animation au survol de la souris </li>
+        </ul>
+
+        <h2>propriétés css utilisées dans cette page</h2>
+            <h4>décrivez leur usage et leurs valeurs possibles</h4>
+            <ol>
+                <li>  Propriétés pour les texte 
+                    <ul>
+                        <li>font-family: permet de spécifier la police à utiliser pour afficher un texte</li>
+                        <li>font-size: de spécifier la taille de police à utiliser pour afficher un texte</li>
+                        <li>line-height: permet de spécifier la hauteur d'une ligne de texte et l'interligne.</li>
+                        <li>text-align: alignement de texte, à gauche, à droite ou au centre</li>
+                        <li>color: couleur de la police de texte, de la typo</li>
+                        <li>text-decoration: permet de décorer le texte en ajoutant une ligne en dessous</li>
+                     </ul>
+                </li>
+
+                <li>propriétés pour les éléments 
+                    <ol>
+                        <li>bacground: propriétés d'arrière plan </li>
+                        <li>float: permet de sortir un élément du flux normal de la page et de le faire “flotter” contre un bord de son élément parent conteneur ou contre un autre élément     flottant.</li>
+                        <li>height: permet de spécifier la hauteur de la zone de contenu d'un élément</li>
+                        <li>left:  La propriété left permet de définir une partie de la position des éléments positionnés de la gauche vers la droite. </li>
+                        <li>margin: permet de spécifier individuellement ou globalement l'espace entre la bordure d'un élément HTML et la bordure de l'élément adjacent pour chaque côté .</li>
+                        <li>padding: marge intérieur d'un élément</li>
+                        <li>position: position de l'élément dans une page</li>
+                        <li>top: position de l'élément par rapport au haut de la fenêtre</li>
+                        <li>transition:temps de transition lors d'une animation</li>
+                        <li>width: lagreur de l'élément tous les deux par rapport à la taille de la fenêtre si on indique une valeur proportionnelle en %  ou en em</li>   
+                    </ol>
+                </li>
+            </ol>
+        <h4>Recherchez les propriétés ci-dessous, faites des tests avec sur cette page depuis la console de débuggage pour tester les valeurs qu'elles peuvent prendre</h4>
+    
+        <ul>
+            <li>font-weight : permet de spécifier le type de gras à utiliser pour l'affichage de la fonte.</li>
+            <li>letter-spacing: permet de spécifier le type de gras à utiliser pour l'affichage de la fonte.</li> 
+            <li>word-spacing: permet d'augmenter ou diminuer l'espacement par défaut qui est entre chaque mot.</li>
+            <li>text-shadow :  permet de créer une ombre portée Css sous le texte.</li>
+            <li>background-image :  permet de définir les différentes valeurs des propriétés liées à la gestion des arrière-plans d'un élément (couleur, image, origine, taille, répétition, etc.).</li>
+            <li>background-size : permet de modifier la taille des ou de l'image d'arrière-plan à l'intérieur de la zone d'arrière plan spécifiée par la propriété</li>
+            <li>opacity :  permet de spécifier la quantité d'opacité ou de transparence à appliquer sur l'ensemble d'un élément html</li>
+            <li>border-style : permet de définir le style des lignes utilisées pour les bordures des quatre côtés de la boîte d'un élément.</li>
+            <li>box-shadow : ajoute des ombres à la boîte d'un élément via une liste d'ombres séparées par des virgules. Une boîte d'ombre est définie avec des décalages horizontal et vertical par rapport à l'élément, avec des rayons de flou et d'étalement et avec une couleur.</li>
+            <li>list-style-image : définit l'image utilisée comme puce devant les éléments de listes</li>
+            <li>border : permet de définir les propriétés liées à la bordure.</li>
+            <li>border-radius : permet de changer les formes des bordures</li>
+            <li>border-width : définit la largeur de la bordure d'un élément.</li>
+            <li>font-variant :  permet de spécifier que le texte soit en petites capitales(miniscule)</li>
+            <li>background-color :couleur d'arrière plan</li>
+            <li>!important ; permet de spécifier que la propriété est la plus importante dans votre feuille CSS en lui donnant un poids plus "important"</li>
+        </ul>
+
+         
+
+</body>
+</html>
